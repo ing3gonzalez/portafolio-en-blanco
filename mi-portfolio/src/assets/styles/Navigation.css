@@ -1,0 +1,30 @@
+/* Navigation.css - Estilos para Navigation.jsx */
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #64748b;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #667eea;
+    background: rgba(102, 126, 234, 0.1);
+  }
+  
+  .nav-link.active {
+    color: #667eea;
+    background: rgba(102, 126, 234, 0.15);
+    border: 2px solid #667eea;
+  }
+  
